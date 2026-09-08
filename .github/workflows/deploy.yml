@@ -35,4 +35,4 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
           # Uncomment and set once your domain is ready:
-          cname: mohitjain.dev
+          cname: www.mohitjain.dev
