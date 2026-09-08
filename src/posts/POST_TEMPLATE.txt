@@ -1,0 +1,20 @@
+HOW TO PUBLISH A POST (only you can — it needs write access to this repo)
+
+1. Create a new file in src/posts/ named:  YYYY-MM-DD-short-title.md
+   e.g. 2026-09-20-kong-vs-aws-api-gateway.md
+2. Start it with front matter, then write plain Markdown:
+
+---
+title: "Your post title"
+description: "One-line summary shown on the blog cards."
+tags: [aws, terraform, devops]
+---
+
+Your content here. Code blocks, headings, images all work.
+
+3. Commit to main (github.com → src/posts → Add file works fine).
+   The GitHub Action rebuilds and deploys automatically in ~2 minutes.
+
+Tag suggestions: devops, platform-engineering, aws, azure, kubernetes,
+terraform, ci-cd, kafka, api-design, cloud-migration, devsecops,
+ai-engineering, spring-boot, nodejs, freelancing
